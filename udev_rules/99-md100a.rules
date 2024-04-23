@@ -1,0 +1,1 @@
+KERNEL=="ttyUSB*", ACTION=="add", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6015", SUBSYSTEM=="tty", SYMLINK+="md100a"

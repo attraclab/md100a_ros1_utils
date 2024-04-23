@@ -1,0 +1,18 @@
+20231117c_AT_MOTOR-DRIVER_100A_2ch_ver9_PWMOUT.hex
+Basic ROS control with 3 PWM output for servo control
+
+20240220_AT_MOTOR-DRIVER_100A_2ch_ver9_PWMIN_mixps.hex
+Mixing on PWM channel, PWM1 steering PWM2 throttle
+PWMch3の切替は以下の通りです。
+ホールド:1100-1399
+PWM操作:1400-1599 
+ROS操作:1600-1900
+ROSと接続せずPWM1,2のみ接続して起動した場合は自動的にPWM操作として動作します
+
+
+
+20240423_AT_MOTOR-DRIVER_100A_2ch_ver9_PWMIN_mixs.hex
+Non-mixing mode | PWM1 left wheel, PWM2 right wheel
+other is same as 20240220_AT_MOTOR-DRIVER_100A_2ch_ver9_PWMIN_mixp.hex
+
+
