@@ -124,7 +124,7 @@ roscore
 
 ## Termianl 2
 ## source ROS1 env
-rosrun rosserial_python serial_node.py  _port:=/dev/zmoab _baud:=921600
+rosrun rosserial_python serial_node.py  _port:=/dev/md100a _baud:=921600
 
 ## Terminal 3
 ## source ROS2 env
